@@ -1,0 +1,10 @@
+.header-icon {
+    width: 25px;
+    height: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 5px;
+    margin: 0 5px 0 10px;
+    justify-content: center;
+    cursor: pointer;
+}

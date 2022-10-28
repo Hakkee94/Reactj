@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+}
+
+.close {
+    width: 11px;
+    height: 11px;
+    border-radius: 5px;
+    background-color: rgba(189,13,6,0.73);
+    cursor: pointer;
+}
+
+.hide {
+    width: 11px;
+    height: 11px;
+    border-radius: 5px;
+    background-color: rgba(248,176,42,0.73);
+    cursor: pointer;
+}
+
+.expand {
+    width: 11px;
+    height: 11px;
+    border-radius: 5px;
+    background-color: rgba(35,212,64,0.77);
+    cursor: pointer;
+}
+
+.interact {
+    display: flex;
+    align-items: center;
+}
+
+.interact div {
+    margin: 3px;
+    cursor: pointer;
+}
+
+.header-interact {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+}
+
+.icon {
+    padding: 4px 10px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 25px;
+    background-position: center;
+    margin: 0 5px;
+}

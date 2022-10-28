@@ -1,0 +1,7 @@
+.note-list {
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 1px solid lightgray;
+    padding-right: 20px;
+    height: calc(100vh - 42px);
+}

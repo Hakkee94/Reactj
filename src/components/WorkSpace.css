@@ -1,0 +1,23 @@
+.workspace {
+    height: calc(100vh - 42px);
+}
+
+.work-handle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.note {
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+}
+
+.date {
+    padding: 10px;
+}
+
+.note h2 {
+    font-size: 28px;
+}
