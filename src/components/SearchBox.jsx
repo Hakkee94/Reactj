@@ -4,6 +4,7 @@ import * as imgs from "../img";
 import { Input } from 'antd';
 import {MyContext} from "../App";
 import {SearchOutlined} from "@ant-design/icons";
+import './Search.css'
 
 
 const SearchBox = () => {
@@ -12,7 +13,7 @@ const SearchBox = () => {
 
     return (
         <div className='search'>
-            <Input onChange={event => setSearch(event.target.value)} placeholder="Basic usage" prefix={<SearchOutlined />}/>
+            <Input onChange={event => setSearch(event.target.value)} placeholder="Поиск задачи" prefix={<SearchOutlined />}/>
         </div>
     );
 };

@@ -2,11 +2,21 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: baseline;
     padding: 0 0 10px 0;
     border-bottom: 1px solid darkgrey;
-    margin-left: 20px;
+    margin: 10px;
     cursor: pointer;
+    padding: 10px 10px 10px 0;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.time-is-up {
+    border: 2px solid red;
+}
+
+.is-done {
+    border: 2px solid greenyellow;
 }
 
 .list-item:hover {
@@ -19,10 +29,30 @@
 }
 
 .time {
-    padding-right: 10px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
 .text-info {
     color: gray;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
+
+.file-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Roboto;
+}
+
+h2 {
+    font-family: Roboto;
+}
+

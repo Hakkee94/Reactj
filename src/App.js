@@ -4,15 +4,19 @@ import Workspace from "./components/Workspace";
 import React, {useState} from "react";
 import ConfirmModal from "./components/ConfirmModal";
 
-const defaultValue = {editStatus: false, isOpenDeleteModal: false}
+
+/**
+ * Represents the todo list
+ */
+
 export const MyContext = React.createContext(null);
 
 const listMock = [
-    {text: 'Новая заметка', time: '12:17', textInfo: 'No additional text'},
-    {text: 'Шмот', time: '12:16', textInfo: 'Фронтенд'},
-    {text: 'https://webapp.diawi...', time: '24.06.2019', textInfo: 'No additional...'},
-    {text: 'РАБОТА', time: '03.01.2019', textInfo: 'Парсинг про...'},
-    {text: 'frevis/f04x[RG_QQyS...', time: '07.12.2018', textInfo: 'Демо Биржа...'},
+    {text: 'Новая задача', time: '07.12.2018', textInfo: 'No additional text', files: [], isDone: false},
+    {text: 'Выбросить мусор', time: '10.12.2023', textInfo: 'Фронтенд', files: [], isDone: true},
+    {text: 'Завести кошку', time: '24.06.2023', textInfo: 'No additional...', files: [], isDone: false},
+    {text: 'Купить шкаф', time: '03.01.2019', textInfo: 'Парсинг про...', files: [], isDone: false},
+    {text: 'Посетить 30 стран', time: '07.12.2018', textInfo: 'Демо Биржа...', files: [], isDone: false},
 ]
 
 function App() {
@@ -23,6 +27,7 @@ function App() {
     const [search, setSearch] = useState('')
     const searchedList = search ? noteList.filter(f => f.text.includes(search)) : noteList
     const [isAddForm, setIsAddForm] = useState(false)
+
 
 
     return (

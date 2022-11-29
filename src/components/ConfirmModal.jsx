@@ -5,7 +5,6 @@ import {Modal} from 'antd';
 const ConfirmModal = () => {
     const {isOpenDeleteModal, setIsRemoveModal, removeNoteFromList, setActiveNote} = useContext(MyContext)
 
-
     return (
         <div>
             <Modal
