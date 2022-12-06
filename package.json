@@ -2,6 +2,7 @@
   "name": "reactj",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hakkee94.github.io/Reactj",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -38,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

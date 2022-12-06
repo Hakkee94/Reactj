@@ -23,6 +23,10 @@ textarea {
     font-family: Roboto;
 }
 
+input[type=checkbox] {
+    margin: 10px;
+}
+
 /*.file-drop > .file-drop-target.file-drop-dragging-over-frame {*/
 /*    !* overlay a black mask when dragging over the frame *!*/
 /*    position: absolute;*/
