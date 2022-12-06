@@ -2,7 +2,7 @@
   "name": "reactj",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hakkee94.github.io/Reactj",
+  "homepage": "https://hakkee94.github.io/reactj",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^5.16.5",
